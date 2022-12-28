@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  rust_service:
+    build: rust-server/
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres_db
+
+  python_service:
+    build: web-app/
+    environment:
+      FLASK_ENV: development
+      FLASK_APP: app_start.py
+    ports:
+      - 8888:8888
+    depends_on:
+      - postgres_db
+
+  postgres_db:
+    image: postgres
+    container_name: database
+    restart: always
+    environment:
+      POSTGRES_DB: test
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+
+
+volumes:
+    postgres_db:

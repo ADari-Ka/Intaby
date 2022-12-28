@@ -1,0 +1,707 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.header {
+    width: 80%;
+    background-color: gray;
+    margin-left: 10%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.Name_of_quiz {
+    width: 40%;
+    background-color: gray;
+    margin-left: 10%;
+    margin-top: 2%;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.Block1 {
+    display: inline-block;
+    width: 15%;
+    background-color: gray;
+    margin-left: 10%;
+    text-align: left;
+    height: 2em;
+}
+
+.Block {
+    display: inline-block;
+    width: 15%;
+    background-color: gray;
+    margin-left: 9.75%;
+    text-align: left;
+    height: 2em;
+}
+
+.Answer_text {
+    box-sizing: border-box;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 3em;
+}
+
+.Editor {
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    background-color: gray;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-align: left;
+}
+
+.Question_text {
+    margin-top: 3%;
+    height: 3em;
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+.time_mode {
+    margin-top: 3%;
+    height: 3em;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.Add_answer {
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 3em;
+}
+
+.save {
+    height: 5%;
+    width: 5%;
+
+    float: right;
+    margin-top: 60%;
+}
+
+.Answer1,
+.Answer2,
+.Answer3,
+.Answer4 {
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    height: 7em;
+    background-color: aqua;
+}
+
+.Task {
+    width: 85%;
+    text-align: center;
+    background-color: aqua;
+    margin: 3%;
+    height: 13em;
+    margin-left: 5%;
+
+}
+
+.TimeScale {
+    background-color: aqua;
+    text-align: center;
+    width: 85%;
+    height: 1.5em;
+    margin: 3%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+
+}
+
+.Nav {
+    background-color: aqua;
+    text-align: center;
+    width: 85%;
+    height: 1.5em;
+    margin: 3%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+
+
+}
+
+header {
+    width: 100%;
+    height: 2.5em;
+    margin-top: 0%;
+    background-color: #142036;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    height: 5em;
+    left: 0;
+    bottom: 0;
+    background-color: aqua;
+    position: fixed;
+}
+
+.Registration {
+    width: 40%;
+    height: max-content;
+    padding: 2%;
+    padding-top: 0%;
+    /* margin-left: 35%;
+    margin-top: 9%; */
+
+}
+
+
+.Registration_inner {
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3D71A0;
+}
+
+.reg_test {
+    color: white;
+    text-align: center;
+}
+
+.email {
+    height: 3em;
+    margin: 1%;
+    width: 80%;
+    background-color: #DAE3ED;
+}
+
+.namesurname {
+    width: 100%;
+    margin-left: 10%;
+    margin: 1%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.name,
+.surname {
+    width: 39%;
+    height: 3em;
+    background-color: #DAE3ED;
+}
+
+.name {
+    margin-right: 2%;
+}
+
+.password {
+    width: 80%;
+    height: 3em;
+    margin: 1%;
+    background-color: #DAE3ED;
+}
+
+.reg_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.reg {
+    height: 3em;
+    padding-left: 100%;
+    padding-right: 100%;
+    margin: 0;
+    background-color: #142036;
+    border: #FFFFFF 2px solid;
+}
+
+
+.reg_text {
+    color: #FFFFFF;
+}
+
+
+
+.img1 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circled_UI {
+    background-color: white;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.circled_Google {
+    background-color: white;
+    width: 40%;
+    border-radius: 60px;
+}
+
+.google {
+    width: 48px;
+    height: 48px;
+    padding: 0px;
+}
+
+.UI {
+    width: 48px;
+    height: 48px;
+    padding: 0px;
+}
+
+.buttons {
+    display: flexbox;
+
+    right: 0;
+    width: 50%;
+    float: right;
+    position: absolute;
+
+}
+
+.main_page {
+    height: max-content;
+
+}
+
+.logo {
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Sign_up,
+.Back {
+    background-color: #FFFFFF;
+}
+
+.Sign_up a,
+.Back a {
+    color: #0D4278;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.Log_in a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.Log_in {
+
+    background-color: #0D4278;
+}
+
+.name2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.Intaby {
+
+    float: left;
+    margin: 1%;
+    color: #FFFFFF;
+    font-size: xx-large;
+
+}
+
+
+.join_quiz, .Registration_wrapper {
+    width: 100%;
+    min-height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:759px) {
+    fieldset {
+        border-width: 20px 10px 20px 10px;
+        border-style: solid;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .join_quiz1 {
+        width: 50%;
+        padding: 30px;
+
+        /* outline: 2px solid white; Чёрная рамка */
+
+        /* border: 10px solid #0D4278; */
+
+
+    }
+
+    .join_quiz_2 {
+        padding: 3%;
+        background-color: #3D71A0;
+        margin: 5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Log_in,
+    .Sign_up,
+    .Back {
+        width: 20%;
+        margin: 1%;
+        height: 3em;
+        border-radius: 20px;
+    }
+
+    .code {
+        width: 94%;
+        height: 3em;
+        background-color: #DAE3ED;
+        font-size: larger;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+
+    .mp_name {
+        background-color: #DAE3ED;
+        width: 80%;
+        height: 3em;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-size: xx-large;
+        margin-bottom: 2%;
+    }
+
+}
+
+@media (max-width:740px) {
+    fieldset {
+        border-width: 10px 5px 10px 5px;
+        border-style: solid;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .join_quiz1 {
+        width: 90%;
+        /* outline: 2px solid #000; /* Чёрная рамка */
+        /* border: 3px solid #fff; */
+
+    }
+
+    .join_quiz_2 {
+        padding: 3%;
+        background-color: #3D71A0;
+        margin: 5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .Log_in,
+    .Sign_up,
+    .Back {
+        width: 60%;
+        margin: 1% 3% 1% 1%;
+        height: 2em;
+        border-radius: 20px;
+
+    }
+
+    .logo {
+        width: 20%;
+        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .code {
+        width: 95%;
+        height: 2em;
+        margin-bottom: 1em;
+        background-color: #DAE3ED;
+    }
+
+    .mp_name {
+        background-color: #DAE3ED;
+        width: 80%;
+        height: 3em;
+        margin-left: 10%;
+        margin-bottom: 1em;
+    }
+
+
+    /* Для registrtation_page */
+
+    .Registration {
+        width: 80%;
+        height: max-content;
+        padding: 2%;
+        padding-top: 0%;
+    }
+
+    .logo {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .img1 {
+        margin-top: 3%;
+        margin-bottom: 2%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.connect {
+    width: 35%;
+    height: 3em;
+    margin-bottom: 2.5%;
+    background-color: #142036;
+    border: 3px solid white;
+    color: #FFFFFF;
+    font-size: medium;
+
+
+}
+
+.mp_join {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.or {
+    margin-top: 4vh;
+    text-align: center;
+
+}
+
+.or_reg {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+
+.Or {
+    text-align: center;
+    color: white;
+    font-size: 180%;
+}
+
+
+.qr {
+    width: 35%;
+    height: 3em;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    background-color: #142036;
+    border: 3px solid white;
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.login,
+.password2 {
+    display: block;
+    width: 40%;
+    height: 3em;
+    margin: 0;
+}
+
+.autorithation {
+    width: 50%;
+    margin-top: 35vh;
+}
+
+.autorithation {
+    margin-bottom: 4vh;
+    font-family: "Trocchi", serif;
+}
+
+@media (min-width:768px) {
+    .wh_name {
+        margin-right: 8.3%;
+    }
+
+}
+
+/* @media(max-width:576px){
+     mar
+ } */
+
+.wh_name {
+    background-color: aqua;
+    margin-top: 5%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    font-size: xx-large;
+
+}
+
+.wh_start {
+    height: 10vh;
+    background-color: aquamarine;
+    margin-top: 5%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: xx-large;
+}
+
+@media (max-width:576px) {
+    .wh_count {
+        display: flex;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        height: 5vh;
+        float: right;
+        background-color: black;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        padding: 3px;
+        font-size: large;
+        color: aliceblue;
+        margin: 3%;
+
+    }
+}
+
+@media (min-width:575px) {
+    .wh_count {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        margin: 2%;
+        display: flex;
+        margin-top: 25%;
+        height: 7vh;
+        float: right;
+        background-color: black;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        padding-left: 10px;
+        font-size: xx-large;
+        color: aliceblue;
+
+    }
+
+}
+
+.wh_hall {
+    margin-top: 5%;
+    height: 50vh;
+    position: relative;
+    background-color: blue;
+}
+
+.mh_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes move {
+    from {
+        /*Начальная позиция. В самом начале вверху и слева равно 0*/
+        /* top: 0; */
+        left: 15%;
+    }
+
+    25%,
+    75% {
+        left: 25%;
+    }
+
+    /*при 25% и 75% длительности анимации максимум равен 80%; */
+    50% {
+        left: 70%;
+    }
+
+    /*at 250% of the animaton duration top equals 50%;*/
+    to {
+        /*finish position В самом конце вверху и слева равны 0. Мы используем эти свойства. bcz мы хотим поместить элемент в начальную позицию*/
+        /* top: 0; */
+        left: 15%;
+    }
+}
+
+.circle {
+    margin-top: 15%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(7, 206, 173);
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    animation-name: move;
+    /*название анимации */
+    animation-duration: 4s;
+    /*и ее продолжительность в секундах*/
+    animation-iteration-count: infinite;
+}
+
+legend {
+    padding-left: 40px;
+    /* Свои значения */
+    padding-right: 40px;
+    /* Свои значения */
+    font-size: xx-large;
+}
